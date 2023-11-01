@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height:100vh;
+}
+
+.whiteBlock {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width:13rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+.whiteBlock h1{
+    color: hsl(218, 44%, 22%);
+    padding: 0.8rem;
+    font-size: 1.0rem;
+    font-weight: 700;
+
+}
+
+.whiteBlock h2 {
+    color: hsl(220, 15%, 55%);
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.whiteBlock h3{
+    color: black;
+    padding: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+.whiteBlock h4{
+    color:dimgray;
+    padding: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    font-size: 1rem;
+    font-weight:bolder;
+}
